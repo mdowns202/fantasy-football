@@ -16,7 +16,7 @@ if (!wrapper) {
 render(
   () => (
     <Suspense fallback={<div>Loading...</div>}>
-      <Router>
+      <Router base={import.meta.env.BASE_URL}>
         <Route path="/" component={Home} />
         <Route path="/rules" component={Rules} />
         <Route path="/history" component={History} />
