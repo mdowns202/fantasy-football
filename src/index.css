@@ -310,12 +310,17 @@ main {
   @apply
     container prose-neutral dark:prose-invert
     p-8 md:p-16 w-[90%];
+
+  h1 {
+    @apply
+      text-[3rem];
+  }
 }
 
 .History {
   h1 {
     @apply
-      text-[3.2rem]
+      text-[3rem]
   }
 
   h3 {

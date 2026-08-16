@@ -62,7 +62,7 @@
 
   <div>
 
-<h2><span>Confirmed Teams 🎬</span></h2>
+<h2><span>Confirmed Teams 🎥</span></h2>
 
   <div class="table-section">
 
