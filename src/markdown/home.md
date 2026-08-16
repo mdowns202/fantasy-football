@@ -45,7 +45,7 @@
 
 <center>
     <span class="text-sm">The winner of <em><strong>The Great Show Fantasy League</strong></em> will also receive:
-        <br /><br />
+        <br /><br /><br />
         <em><strong>The 1st Ever TGS ShowStopper 'RA RING'!</strong></em>
         <br />
         <strong>+</strong>
