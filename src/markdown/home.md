@@ -41,8 +41,8 @@
 
 | Name                | Manager      |
 | ------------------- | ------------ |
-| Uptown Allblacks    | <span>BG</span>           |
-| HE_HATE_ME          | <span>Mark (Sr)</span>    |
+| Uptown Allblacks    | BG           |
+| HE_HATE_ME          | Mark (Sr)    |
   
   </div>
   </div>

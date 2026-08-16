@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @config "../tailwind.config.cjs";
 @plugin "@tailwindcss/typography";
+@custom-variant dark (false);
 
 :root {
   --text: #6b6375;
@@ -83,7 +84,7 @@
 
 html,
 body {
-  @apply m-0 p-0 dark;
+  @apply m-0 p-0;
 }
 
 #root {
@@ -272,10 +273,6 @@ main {
       td {
         @apply
           border-b px-4 py-3 text-sm;
-
-        span {
-          @apply text-center;
-        }
       }
     }
   }
