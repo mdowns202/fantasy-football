@@ -175,7 +175,7 @@ header {
     @apply
       w-full h-full justify-center
       text-base font-semibold text-gray-400
-      px-8 py-8 active:scale-95 active:text-gray-300
+      px-10 py-8 active:scale-95 active:text-gray-300
       active:duration-75 ease-in-out active:ease-in-out active:bg-[rgba(127,127,127,0.1)];
   }
 
