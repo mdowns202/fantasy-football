@@ -1,0 +1,293 @@
+@import "tailwindcss";
+@config "../tailwind.config.cjs";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+  --cursive: "Shadows Into Light Two", cursive;
+  --anton: "Anton", sans-serif;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --accent: #c084fc;
+    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent-border: rgba(192, 132, 252, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+  --cursive: "Shadows Into Light Two", cursive;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+  }
+}
+
+@theme {
+  /* Increased duration to 1.2s for a longer, smooth trailing fade */
+  --animate-camera-flash: camera-flash 1.2s ease-out 0.5s 1 forwards;
+}
+
+@keyframes camera-flash {
+  0% { background-color: rgba(255, 255, 255, 0); }
+  5% { background-color: rgba(255, 255, 255, 0.95); }  /* Fast, blinding burst */
+  30% { background-color: rgba(255, 255, 255, 0.4); }   /* Lingering afterglow */
+  100% { background-color: rgba(255, 255, 255, 0); }    /* Fades completely away */
+}
+
+html,
+body {
+  @apply m-0 p-0;
+}
+
+#root {
+  @apply m-0 p-0;
+
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+
+header {
+  @apply
+    sticky top-0 flex flex-row items-center justify-between
+    gap-2 prose-neutral border-b shadow-xs shadow-[rgba(192,192,192,0.6)] rounded-b-xl
+    bg-transparent backdrop-blur-lg backdrop-saturate-150 z-10 px-8;
+
+  a {
+    @apply
+      flex flex-row items-center gap-4;
+
+    img {
+      @apply
+        w-9 h-9 sm:w-11 sm:h-11;
+    }
+
+    div {
+      @apply
+        flex flex-col items-center py-3 gap-0.5;
+
+      h1 {
+        @apply
+          sm:text-[1.36rem] font-anton tracking-wide;
+      }
+
+      h2 {
+        @apply
+          text-xs text-gray-500;
+      }
+    }
+  }
+  
+  nav {
+    @apply 
+      hidden sm:flex;
+
+    ul {
+      @apply
+        flex flex-row gap-6;
+
+      li {
+        @apply
+          list-none;
+      }
+    }
+  }
+
+  .dropdown-trigger {
+    @apply flex  focus:outline-none
+      active:scale-95 cursor-pointer;
+
+    svg {
+      @apply stroke-gray-300 active:stroke-gray-100;
+    }
+  }
+}
+
+.dropdown-content {
+  @apply 
+    flex flex-col p-0 ring-0 border border-t-0 shadow-xs shadow-[rgba(192,192,192,0.6)]
+    bg-transparent rounded-b-xl mt-2 mr-1
+    backdrop-blur-lg backdrop-saturate-150
+    animate-in fade-in duration-200 ease-in-out items-center
+    data-[state=open]:animate-collapsible-down data-[state=closed]:animate-collapsible-up;
+
+  .dropdown-item {
+    @apply
+      w-full h-full justify-center
+      text-base font-semibold text-gray-400
+      px-8 py-8 active:scale-95 active:text-gray-300
+      active:duration-75 ease-in-out active:ease-in-out active:bg-[rgba(127,127,127,0.1)];
+  }
+
+  hr {
+    @apply
+      border-gray-400 w-full flex m-0;
+  }
+}
+
+section {
+  @apply
+    flex flex-col gap-4 py-8 my-8 w-full border rounded-xl;
+
+  center {
+    @apply
+      flex flex-row gap-12 sm:gap-16 items-center justify-center text-xs text-gray-500;
+
+    a {
+      @apply
+        flex flex-row items-center gap-2;
+
+      img {
+        @apply
+          w-12 h-9 group-hover:animate-pulse;
+      }
+
+      span {
+        @apply
+          hidden sm:inline;
+      }
+    }
+  }
+}
+
+ol {
+  @apply
+    px-8;
+
+  li {
+    @apply
+      list-decimal my-3 text-justify text-sm;
+  }
+}
+
+main {
+  @apply
+    container prose-neutral dark:prose-invert p-4 w-[90%];
+
+  .md-container {
+    @apply flex flex-col gap-8;
+  }
+
+  h1 {
+    @apply
+      w-full text-center font-cursive py-10 sm:pt-16 sm:pb-8 text-[5.6rem] sm:text-[2.7rem] md:text-[3.2rem] leading-snug;
+
+    span {
+      @apply no-underline;
+    }
+  }
+
+  h2 {
+    @apply
+      text-2xl font-light mb-4;
+  }
+
+  h3 {
+    @apply
+      font-light text-sm mb-2;
+  }
+
+  ul {
+    @apply
+      p-8;
+
+    li {
+      @apply
+        text-sm my-2;
+    }
+  }
+
+  .table-section {
+    @apply sm:px-16 md:px-28 lg:px-40;
+
+    table {
+      @apply
+        w-full my-8 justify-center;
+
+      th {
+        @apply
+          border-b px-4 py-3 font-semibold;
+      }
+
+      td {
+        @apply
+          border-b px-4 py-3 text-sm;
+
+        span {
+          @apply text-center;
+        }
+      }
+    }
+  }
+
+  p {
+    @apply
+      text-sm;
+  }
+}
+
+.Rules {
+  @apply
+    container prose-neutral dark:prose-invert
+    p-8 md:p-16 w-[90%];
+}

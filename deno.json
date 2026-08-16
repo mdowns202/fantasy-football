@@ -1,0 +1,29 @@
+{
+  "tasks": {
+    "dev": "deno run -A --node-modules-dir npm:vite",
+    "build": "deno run -A --node-modules-dir npm:vite build",
+    "preview": "deno run -A --node-modules-dir npm:vite preview",
+    "serve": "deno run --allow-net --allow-read jsr:@std/http@1/file-server dist/"
+  },
+  "compilerOptions": {
+    "lib": ["ES2023", "DOM"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "solid-js"
+  },
+  "imports": {
+    "@deno/vite-plugin": "npm:@deno/vite-plugin@^2.0.3",
+    "@kobalte/core": "npm:@kobalte/core@^0.13.13",
+    "@solidjs/router": "npm:@solidjs/router@^1.0.0",
+    "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.20",
+    "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.3.3",
+    "class-variance-authority": "npm:class-variance-authority@^0.7.1",
+    "clsx": "npm:clsx@^2.1.1",
+    "marked": "npm:marked@^18.0.9",
+    "solid-js": "npm:solid-js@^1.9.14",
+    "tailwind-merge": "npm:tailwind-merge@^3.6.0",
+    "tailwindcss": "npm:tailwindcss@^4.3.3",
+    "tailwindcss-animate": "npm:tailwindcss-animate@^1.0.7",
+    "vite": "npm:vite@^8.2.1",
+    "vite-plugin-solid": "npm:vite-plugin-solid@^2.11.14"
+  }
+}
