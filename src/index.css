@@ -83,7 +83,7 @@
 
 html,
 body {
-  @apply m-0 p-0;
+  @apply m-0 p-0 overflow-x-clip;
 }
 
 #root {
@@ -230,7 +230,7 @@ main {
 
   h1 {
     @apply
-      w-full text-center font-cursive py-10 sm:pt-16 sm:pb-8 text-[5.6rem] sm:text-[2.7rem] md:text-[3.2rem] leading-snug;
+      w-full text-center font-cursive py-10 text-[5.6rem] sm:text-[2.7rem] md:text-[3.2rem] leading-snug;
 
     span {
       @apply no-underline;
@@ -240,11 +240,16 @@ main {
   h2 {
     @apply
       text-2xl font-light mb-4;
+
+    span {
+      @apply
+        border-b border-dashed py-4;
+    }
   }
 
   h3 {
     @apply
-      font-light text-sm mb-2;
+      font-light text-sm;
   }
 
   ul {
@@ -258,11 +263,11 @@ main {
   }
 
   .table-section {
-    @apply sm:px-16 md:px-28 lg:px-40;
+    @apply sm:mx-16 md:mx-28 lg:mx-40;
 
     table {
       @apply
-        w-full my-8 justify-center;
+        w-full my-12 justify-center;
 
       th {
         @apply
@@ -272,6 +277,25 @@ main {
       td {
         @apply
           border-b px-4 py-3 text-sm;
+      }
+    }
+  }
+
+  .points-legend {
+    @apply w-full flex justify-center container;
+
+    table {
+      @apply
+        w-3/4 sm:w-1/2 md:w-1/3 xl:w-1/4 ring-1 ring-gray-400 rounded-xl;
+
+      th {
+        @apply
+          border-b py-3 font-semibold text-left text-xs px-4;
+      }
+
+      td {
+        @apply
+          px-4 py-3 border-t text-xs items-center justify-center h-full;
       }
     }
   }
@@ -286,4 +310,21 @@ main {
   @apply
     container prose-neutral dark:prose-invert
     p-8 md:p-16 w-[90%];
+}
+
+.History {
+  h1 {
+    @apply
+      text-[3.2rem]
+  }
+
+  h3 {
+    @apply
+      text-xl font-light mb-4 text-center;
+
+    span {
+      @apply
+        border-b border-dashed py-2;
+    }
+  }
 }

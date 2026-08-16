@@ -29,7 +29,7 @@
   
   <div>
 
-## Season Prizes 🏆
+<h2><span>Season Prizes 🏆</span></h2>
 
   <div class="table-section">
 
@@ -62,7 +62,7 @@
 
   <div>
 
-## Confirmed Teams 🎬
+<h2><span>Confirmed Teams 🎬</span></h2>
 
   <div class="table-section">
 
