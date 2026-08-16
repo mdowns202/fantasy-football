@@ -5,23 +5,23 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from './shadcn/ui/dropdown-menu.tsx';
-import { Navigate } from '@solidjs/router';
+import { A, Navigate } from '@solidjs/router';
 
 const Nav = () => {
   return (
     <>
-      <a href="/">
+      <A href="/">
         <img src="/logo.png" alt="logo" />
         <div>
           <h1>The Great Show</h1>
           <h2>Season 26</h2>
         </div>
-      </a>
+      </A>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/rules">Rules</a></li>
-          <li><a href="/history">History</a></li>
+        <li><A href="/">Home</A></li>
+          <li><A href="/rules">Rules</A></li>
+          <li><A href="/history">History</A></li>
         </ul>
       </nav>
       <DropdownMenu>

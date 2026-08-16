@@ -154,7 +154,7 @@ header {
   }
 
   .dropdown-trigger {
-    @apply flex  focus:outline-none
+    @apply flex sm:hidden focus:outline-none
       active:scale-95 cursor-pointer;
 
     svg {
