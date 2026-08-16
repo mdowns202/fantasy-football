@@ -1,10 +1,18 @@
 <h1><span class="hidden sm:inline">✨ </span>Welcome to the SHOW ✨</h1>
 
+<br />
+
+---
+
+<br />
+
 - **Entry fee 💰 -> $50**
 - **League size ⚔️ -> 12 teams**
 - **Draft date 📅 -> TBD**
 - **S25 Champion 👑 -> Twisted T**
 - **Commissioner 👨‍⚖️ -> Mark II AKA BG AKA Big Mr. Catch Em in the Alley, Walk Em Down wit da Draco**
+
+<br />
 
 <div class="md-container">
   <div>
@@ -21,7 +29,7 @@
   <div>
 
 ## Season Prizes 🏆
----
+
   <div class="table-section">
 
 | Final Rank    | Award              |
@@ -36,7 +44,7 @@
   <div>
 
 ## Confirmed Teams 🎬
----
+
   <div class="table-section">
 
 | Name                | Manager      |

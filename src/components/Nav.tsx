@@ -38,19 +38,19 @@ const Nav = () => {
         <DropdownMenuContent class="dropdown-content">
           <DropdownMenuItem as="a" href="/" class="dropdown-item"
             onSelect={() => {
-              Navigate({ href: '/' }) 
+              Navigate({ href: import.meta.env.BASE_URL }) 
           }}>
             Home
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem as="a" href="/rules" class="dropdown-item" onSelect={() => {
-            Navigate({ href: '/rules' })  
+            Navigate({ href: `${import.meta.env.BASE_URL}/rules` })  
           }}>
             Rules
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem as="a" href="/history" class="dropdown-item" onSelect={() => {
-            Navigate({ href: '/history' })
+            Navigate({ href: `${import.meta.env.BASE_URL}/history` })
           }}>
             History
           </DropdownMenuItem>
