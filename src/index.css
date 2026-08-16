@@ -22,7 +22,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: dark;
   color: var(--text);
   background: var(--background);
   font-synthesis: none;
@@ -55,7 +55,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: dark;
+  color-scheme: light dark;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
@@ -266,7 +266,7 @@ main {
 
       th {
         @apply
-          border-b px-4 py-3 font-semibold;
+          border-b px-4 py-3 font-semibold text-left;
       }
 
       td {
