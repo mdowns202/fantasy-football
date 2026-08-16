@@ -8,6 +8,8 @@ import {
 import { A, Navigate } from '@solidjs/router';
 
 const Nav = () => {
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <>
       <A href="/">
@@ -36,21 +38,21 @@ const Nav = () => {
           </svg>
         </DropdownMenuTrigger>
         <DropdownMenuContent class="dropdown-content">
-          <DropdownMenuItem as="a" href={`${import.meta.env.BASE_URL}`} class="dropdown-item"
+          <DropdownMenuItem as="a" href={baseUrl} class="dropdown-item"
             onSelect={() => {
-              Navigate({ href: import.meta.env.BASE_URL }) 
+              Navigate({ href: "/" }) 
           }}>
             Home
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem as="a" href={`${import.meta.env.BASE_URL}/rules`} class="dropdown-item" onSelect={() => {
-            Navigate({ href: `${import.meta.env.BASE_URL}/rules` })  
+          <DropdownMenuItem as="a" href={`${baseUrl}/rules`} class="dropdown-item" onSelect={() => {
+            Navigate({ href: "/rules" })  
           }}>
             Rules
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem as="a" href={`${import.meta.env.BASE_URL}/history`} class="dropdown-item" onSelect={() => {
-            Navigate({ href: `${import.meta.env.BASE_URL}/history` })
+          <DropdownMenuItem as="a" href={`${baseUrl}/history`} class="dropdown-item" onSelect={() => {
+            Navigate({ href: "/history" })
           }}>
             History
           </DropdownMenuItem>
