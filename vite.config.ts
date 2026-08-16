@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [deno(), solid(), tailwindcss()],
-  base: "/fantasy-football/", 
+  base: "/fantasy-football", 
   server: {
     host: "10.100.0.3",
     port: 8202,

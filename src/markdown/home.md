@@ -11,9 +11,9 @@
     <center><h2>Entry Methods 🎟️</h2></center>
     <section>
       <center>
-        <a class="group" href="https://venmo.com/mark-downs?amount=50.00"><img src="/src/assets/Venmo_Monogram.svg" /><span>@mark-downs</span></a>
-        <a class="group" href="https://cash.app/pay/link/ahvobedu"><img src="/src/assets/Square_Cash_app_logo.svg" /><span>$senditdatway</span></a>
-        <a class="group" href="https://paypal.me/Mdowns202/50"><img src="/src/assets/paypal-logo.svg" /><span>@Mdowns202</span></a>
+        <a class="group" href="https://venmo.com/mark-downs?amount=50.00"><img src="/fantasy-football/src/assets/Venmo_Monogram.svg" /><span>@mark-downs</span></a>
+        <a class="group" href="https://cash.app/pay/link/ahvobedu"><img src="/fantasy-football/src/assets/Square_Cash_app_logo.svg" /><span>$senditdatway</span></a>
+        <a class="group" href="https://paypal.me/Mdowns202/50"><img src="/fantasy-football/src/assets/paypal-logo.svg" /><span>@Mdowns202</span></a>
       </center>
     </section>
   </div>
