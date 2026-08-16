@@ -34,9 +34,9 @@
 
 | Final Rank    | Award              |
 | ------------- | ------------------ |
-| 🥇 First      | <span class="text-green-500">$400</span>  |
-| 🥈 Second     | <span class="text-green-500">$150</span>  |
-| 🥉 Third      | <span class="text-green-500">$50</span>   |
+| 🥇 First      | <span class="text-green-500 font-semibold">$400</span>  |
+| 🥈 Second     | <span class="text-green-500 font-semibold">$150</span>  |
+| 🥉 Third      | <span class="text-green-500 font-semibold">$50</span>   |
 
   </div>
   </div>

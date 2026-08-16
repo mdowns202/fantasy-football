@@ -36,20 +36,20 @@ const Nav = () => {
           </svg>
         </DropdownMenuTrigger>
         <DropdownMenuContent class="dropdown-content">
-          <DropdownMenuItem as="a" href="/" class="dropdown-item"
+          <DropdownMenuItem as="a" href={`${import.meta.env.BASE_URL}`} class="dropdown-item"
             onSelect={() => {
               Navigate({ href: import.meta.env.BASE_URL }) 
           }}>
             Home
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem as="a" href="/rules" class="dropdown-item" onSelect={() => {
+          <DropdownMenuItem as="a" href={`${import.meta.env.BASE_URL}/rules`} class="dropdown-item" onSelect={() => {
             Navigate({ href: `${import.meta.env.BASE_URL}/rules` })  
           }}>
             Rules
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem as="a" href="/history" class="dropdown-item" onSelect={() => {
+          <DropdownMenuItem as="a" href={`${import.meta.env.BASE_URL}/history`} class="dropdown-item" onSelect={() => {
             Navigate({ href: `${import.meta.env.BASE_URL}/history` })
           }}>
             History
