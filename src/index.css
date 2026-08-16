@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @config "../tailwind.config.cjs";
 @plugin "@tailwindcss/typography";
-@custom-variant dark (false);
 
 :root {
   --text: #6b6375;
@@ -23,7 +22,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: dark;
   color: var(--text);
   background: var(--background);
   font-synthesis: none;
@@ -56,7 +55,7 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  color-scheme: light dark;
+  color-scheme: dark;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
