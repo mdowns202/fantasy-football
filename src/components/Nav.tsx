@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <>
       <A href="/">
-        <img src="/fantasy-football/logo.png" alt="logo" />
+        <img src="/the-great-show/logo.png" alt="logo" />
         <div>
           <h1>The Great Show</h1>
           <h2>Season 26</h2>
