@@ -148,7 +148,7 @@
 ### Article VII — Conduct & Sportsmanship
 
 1. **Good Faith Participation.** All managers are expected to set competitive lineups and manage their rosters in good faith for the duration of the season, including in games that do not affect their own playoff standing.
-2. **Tanking Prohibited.** Intentionally fielding a non-competitive lineup to manipulate standings, opponents' schedules, or draft positioning is prohibited and may be reviewed by the Commissioner.
+2. **Tanking Prohibited.** Intentionally fielding a non-competitive lineup to manipulate standings or playoff schedules. is prohibited and may be reviewed by the Commissioner.
 3. **Respectful Communication.** All league communication shall remain respectful. Harassment, personal attacks, or abusive conduct toward other managers may result in warnings, suspension, or removal from the league at the Commissioner's discretion.
 4. **Collusion Prohibited.** Any agreement between managers to manipulate trades, waivers, lineups, or outcomes for mutual benefit outside the bounds of fair competition is strictly prohibited and subject to the penalties described in Article IV.
 
