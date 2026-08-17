@@ -74,7 +74,7 @@
 | The OMFG WTF GD MF BS!!!  | Dwon         | ❌    |
 | HIMOTHY                   | Bone         | ❌    |
 | Reau Won                  | Jarreau      | ❌    |
-| Twisted T's               | Terence      | ❌    |
+| Twisted T's               | Terence      | ✔️    |
 | MANN-UP                   | Darryle      | ❌    |
   
   </div>
