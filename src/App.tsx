@@ -21,13 +21,14 @@ render(
         <Route path="/rules" component={Rules} />
         <Route path="/history" component={History} />
       </Router>
-      <footer class="container flex flex-col items-center justify-center pb-16 gap-2">
+      <footer class="container flex flex-col items-center justify-center gap-2">
         <span class="font-light text-gray-500 text-center text-xs">
           &copy; 2026 The Great Show
         </span>
         <span class="text-gray-500 text-center text-sm">
           In memory of Raouf 'Big Ra' Abdullah
         </span>
+        <span class="my-12 border-b w-1/3"></span>
       </footer>
     </Suspense>
   ),

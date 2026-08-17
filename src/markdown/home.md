@@ -8,7 +8,8 @@
 
 - **🏠 League home -> <u>[Yahoo Fantasy](https://football.fantasysports.yahoo.com/f1/344218)</u>**
 - **💰 Entry fee -> $60.00 ($55 + $5)**
-- **📅 Draft -> 7/6/2026 @ 7:00pm**
+- **📅 Draft day -> 9/6/2026 @ 7:00pm**
+- **🔁 Trade deadline -> 11/28/2026**
 - **⚔️ League size -> 12 teams**
 - **👑 S25 Champion -> Twisted T's**
 - **👨‍⚖️ Commissioner -> Mark II AKA BG AKA Big Mr. Catch Em in the Alley, Walk Em Down wit da Draco**
@@ -20,9 +21,9 @@
     <center><h2>Entry Methods 🎟️</h2></center>
     <section>
       <center>
-        <a class="group" href="https://venmo.com/mark-downs?amount=50.00"><img src="/the-great-show/Venmo_Monogram.svg" /><span>@mark-downs</span></a>
-        <a class="group" href="https://cash.app/pay/link/ahvobedu"><img src="/the-great-show/Square_Cash_app_logo.svg" /><span>$senditdatway</span></a>
-        <a class="group" href="https://paypal.me/Mdowns202/50"><img src="/the-great-show/paypal-logo.svg" /><span>@Mdowns202</span></a>
+        <a class="group" href="https://venmo.com/mark-downs?amount=60.00"><img src="/the-great-show/Venmo_Monogram.svg" /><span>@mark-downs</span></a>
+        <a class="group" href="https://cash.app/pay/link/a7ftq3o5"><img src="/the-great-show/Square_Cash_app_logo.svg" /><span>$senditdatway</span></a>
+        <a class="group" href="https://paypal.me/Mdowns202/60"><img src="/the-great-show/paypal-logo.svg" /><span>@Mdowns202</span></a>
       </center>
     </section>
   </div>

@@ -2,7 +2,7 @@
 
 <div class="outline-2 p-8 rounded-xl">
 
-## The Association 🤝
+## <span>The Association 🤝</span>
 
 <span class="font-extrabold">In 2021</span>, as the world attempted to stitch itself back together in the wake of the COVID-19 pandemic, a rare occurence took shape — twelve of the sharpest fantasy football minds on the planet found each other. They came from different cities, different backgrounds, different philosophies of the game — but at the heart of it all stood one family, a dynasty of analysts, coaches, and managers whose roots ran deep through Washington, DC and the Maryland suburbs that cradled it. It was around their table, their instincts, their obsession with the game within the game, that the rest of the league took shape.
 
@@ -12,7 +12,7 @@ What began as camaraderie sharpened, over time, into something closer to war. Ri
 
 <br />
 
-## The Show 🎬
+## <span>The Show 🎬</span>
 
 In that first year, one manager stood apart. **Big Ra** didn't just play the game — he understood it, the way a conductor understands an orchestra before the first note is played. He finished fourth that inaugural season, close enough to taste the top, and everyone who knew him understood it was only a matter of time. He spent that off-season the way he spent everything: fully, relentlessly, joyfully. He was building something. Everyone could feel it. Year two was going to be his.
 
