@@ -38,7 +38,7 @@ They'd call it ***The Great Show***. Not a copy. A continuation.
 
 <br />
 
-Every draft since carries his fingerprints. Every rivalry, every last-second win, every manager who claws back from 0-2 to make a miracle run — it all happens under a banner that remembers where it came from. He never got his year two. But he shows up anyway — in the silence of a text thread gone mysteriously quiet, in the disbelieving laughter when someone's Monday night flex somehow saves their week, in the chills down twelve different spines every time the impossible happens on a Sunday afternoon.
+Every draft since carries his fingerprints. Every rivalry, every last-second win, every manager who claws back from 0-2 to make a miracle run — it all happens under a banner that remembers where it came from. He never got his year two. But he shows up anyway — in the silence of a text thread with a mysteriously quiet opponent, in the disbelieving laughter when someone's Monday night flex somehow saves their week, in the chills down twelve different spines every time the impossible happens on a Sunday afternoon.
 
 <br />
 
