@@ -76,6 +76,7 @@
 | Reau Won                  | Jarreau      | ❌    |
 | Twisted T's               | Terence      | ✔️    |
 | MANN-UP                   | Darryle      | ❌    |
+| Jax N Time                | Charles      | ❌    |
   
   </div>
   </div>
