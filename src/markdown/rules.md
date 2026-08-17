@@ -55,7 +55,7 @@
 ### Article IV — Trade Rules
 
 1. **Trade Eligibility.** Any manager may propose a trade to any other manager at any time during the designated trading window of the season.
-2. **Trade Composition.** Trades must consist exclusively of player(s)-for-player(s) exchanges (and, if permitted, draft pick(s)-for-draft pick(s), or a combination thereof). No other form of compensation — including but not limited to cash, FAAB dollars, or non-league consideration — will be permitted or recognized.
+2. **Trade Composition.** Trades must consist exclusively of player(s)-for-player(s) exchanges. No other form of compensation — including but not limited to cash, FAAB dollars, or non-league consideration — will be permitted or recognized.
 3. **Trade Deadline.** All trades must be submitted and finalized no later than November 28, 2026. No trades will be processed after this deadline.
 4. **Trade Review Period.** All proposed trades are subject to a review period of at least 24 hours following acceptance by both parties, during which any manager may raise a formal dispute.
 5. **Expedition of Trades.** Proposed trades may be expedited at the sole discretion of the Commissioner, provided the trade is non-controversial and the requesting manager can demonstrate they would be unduly burdened without expedited processing.
